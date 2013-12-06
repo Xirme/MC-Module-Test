@@ -1,0 +1,11 @@
+name: Test
+main: me.xir.mc.plugin.module.test.Test
+version: 1.0
+description: Test module for MC-Core modular plugin system!
+commands:
+    testcommandhandler:
+        description: Tests the command handler.
+    checkmysql:
+        description: Tests if the MySQL connection was obtainable from MC-Core.
+    testquery:
+        description: Executes a test MySQL query outputting data.
